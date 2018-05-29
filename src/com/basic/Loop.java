@@ -11,6 +11,11 @@ public class Loop {
 		{
 			System.out.println(i);
 		}
+		do{
+			System.out.println(i);
+			i++;
+			
+		}while(i<10);
 	}
 
 }
