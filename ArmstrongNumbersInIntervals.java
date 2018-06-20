@@ -20,13 +20,12 @@ public class ArmstrongNumbersInIntervals {
 				remainder = j% 10;
 				result += Math.pow(remainder, 3);
 				j= j / 10;
-				//System.out.println(result);
+				
 			}
 			if (num == result) {
 				System.out.print(num + " ");
 			}
-			//else
-				//System.out.println(num);
+			
 		}
 
 	}
