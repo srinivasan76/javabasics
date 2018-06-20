@@ -7,8 +7,8 @@ public class FirstFiveMultiples {
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
 		int i;
-		for(i=1;i<=n;i++) {
-			System.out.print(i*5+" ");
+		for(i=1;i<=5;i++) {
+			System.out.print(i*n+" ");
 		}
 	}
 
